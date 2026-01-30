@@ -86,3 +86,16 @@ body {
   from { transform: translateZ(25px); }
   to { transform: translateZ(0); }
 }
+#status {
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+.moved {
+  animation: moveHighlight 0.3s ease;
+}
+@keyframes moveHighlight {
+  0% { background-color: yellow; }
+  100% { background-color: inherit; }
+}

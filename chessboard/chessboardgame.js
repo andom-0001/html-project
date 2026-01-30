@@ -173,3 +173,6 @@ setTimeout(() => {
     selected = null;
     clearHighlights();
 }
+
+
+
